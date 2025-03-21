@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <div class="navbar-brand d-flex align-items-center">
+        <img src="Me.jpg" alt="Me" class="logo-icon rounded me-2">
+        <span>Pham Vu Hoang Bao</span>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#articles">Articles</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <button class="btn btn-outline-primary rounded-circle theme-toggle" id="theme-toggle">
+              <i class="bi bi-moon-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <section id="home" class="hero text-center py-5">
+      <h1 class="display-4">Frontend Developer</h1>
+      <p class="lead">html only with proper layout, no styling</p>
+    </section>
+
+    <div class="row g-4">
+      <section id="projects" class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title section-title">Projects</h2>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">HTML Only Portfolio</a>
+              <a href="#" class="list-group-item list-group-item-action">Calculator</a>
+              <a href="#" class="list-group-item list-group-item-action">Quiz App</a>
+              <a href="#" class="list-group-item list-group-item-action">Countdown Timer</a>
+              <a href="#" class="list-group-item list-group-item-action">Product Upcoming Page</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title section-title">Work Experience</h2>
+            <div class="experience-item mb-4">
+              <h3 class="company">roadmap.sh</h3>
+              <p>Solved all the frontend projects</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Visit my Profile</a>
+            </div>
+            <div class="experience-item">
+              <h3 class="company">OpenSource Work</h3>
+              <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Visit my GitHub Profile</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title section-title">Education</h2>
+            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+            <p>Courses I took:</p>
+            <ul class="list-group">
+              <li class="list-group-item">Object Oriented Programming</li>
+              <li class="list-group-item">Data Structures and Algorithms</li>
+              <li class="list-group-item">Web Engineering</li>
+              <li class="list-group-item">Artificial Intelligence</li>
+              <li class="list-group-item">Human Computer Interaction</li>
+              <li class="list-group-item">Computer Graphics</li>
+              <li class="list-group-item">Database Management Systems</li>
+              <li class="list-group-item">Distributed Database Systems</li>
+              <li class="list-group-item">Discreet Mathematics</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="testimonials my-5">
+      <h2 class="section-title text-center mb-4">Reviews From my Teachers</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">John doe was a brilliant student; always stood out with his assignments.</p>
+              <div class="testimonial-author">
+                <p class="mb-0 fw-bold">Jane Doe</p>
+                <p class="text-muted">Assistant Professor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">John doe was a brilliant student; always stood out with his assignments.</p>
+              <div class="testimonial-author">
+                <p class="mb-0 fw-bold">Jane Doe</p>
+                <p class="text-muted">Assistant Professor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">John doe was a brilliant student; always stood out with his assignments.</p>
+              <div class="testimonial-author">
+                <p class="mb-0 fw-bold">Jane Doe</p>
+                <p class="text-muted">Assistant Professor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="text-center py-4">
+    <p class="mb-0">© all rights reserved 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const themeToggle = document.getElementById('theme-toggle');
+      const htmlElement = document.documentElement;
+      
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        htmlElement.setAttribute('data-bs-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+      }
+
+      themeToggle.addEventListener('click', () => {
+        const currentTheme = htmlElement.getAttribute('data-bs-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        htmlElement.setAttribute('data-bs-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateThemeIcon(newTheme);
+      });
+
+      function updateThemeIcon(theme) {
+        const icon = themeToggle.querySelector('i');
+        icon.className = theme === 'dark' ? 'bi bi-sun-fill' : 'bi bi-moon-fill';
+      }
+    });
+  </script>
+</body>
+</html>
